@@ -1,3 +1,8 @@
+/* Box model helper:
+* { 
+    outline: 2px solid red;
+} */
+    
 * {
     box-sizing: border-box;
 }
@@ -12,6 +17,10 @@ html body {
  .header,
  .homepage.header {
     text-align: center;
+}
+
+div {
+    margin: 0 0 50px 0;
 }
 
 #image {
@@ -32,6 +41,28 @@ html body {
 }
 
 span {
+    display: inline-block; 
+    padding: 20px;
     font-weight: 1000;
     color: white;
+}
+
+h2,
+h3 {
+    margin-top: 100px;
+    margin-bottom: -30px;
+    border-bottom: 3px solid white;
+}
+
+li {
+    padding: 10px 10px;
+}
+
+.homepage-item {
+    display: inline;
+}
+
+.recipe-redirect {
+    display: block;
+    padding-left: 75px;
 }
