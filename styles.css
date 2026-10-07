@@ -1,3 +1,17 @@
 * {
     box-sizing: border-box;
 }
+
+html body {
+    background-color: limegreen;
+}
+
+ .header,
+ .homepage.header {
+    text-align: center;
+}
+
+#image {
+    height: 500px;
+    width: auto;
+}
