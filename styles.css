@@ -30,3 +30,8 @@ html body {
 .header#red {
     color: #ff0000;
 }
+
+span {
+    font-weight: 1000;
+    color: white;
+}
