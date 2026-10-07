@@ -4,6 +4,9 @@
 
 html body {
     background-color: limegreen;
+    font-family: "Brush Script MT", cursive, sans-serif;
+    font-size: 40px;
+    color: rgb(31, 119, 28);
 }
 
  .header,
@@ -14,4 +17,16 @@ html body {
 #image {
     height: 500px;
     width: auto;
+}
+
+.homepage.header {
+    font-size: 150px;
+}
+
+.header#white {
+    color: white;
+}
+
+.header#red {
+    color: #ff0000;
 }
